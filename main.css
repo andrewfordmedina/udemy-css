@@ -5,7 +5,7 @@ body{
 
 #product-overview{
     background:url('images/sunset.jpg');
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100% 528px;
     width: calc(100% - 20px);
     height: 528px;
@@ -24,9 +24,13 @@ body{
 
 
 .main-header{
-    width: calc(100% - 32px);    
+
+    /* width: calc(100% - 32px);     */
+    width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    box-sizing: border-box;
 }
 
 .main-header > div{
